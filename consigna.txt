@@ -1,0 +1,17 @@
+Mi servidor web
+DESAFÍO
+Para este desafío te proponemos montar un servidor web (http) y devolver código HTML para ser visualizado en un navegador. Para eso deberás:
+
+Crear un proyecto nuevo en una carpeta.
+Inicializar un package.json usando el comando (yarn init -y).
+Crear un index.js y un index.html.
+Dentro del index.js deberás montar un servidor http usando express. Para eso tenés que:
+Ver la documentación de express (https://www.npmjs.com/package/express)
+Escuchar las llamadas a la ruta /
+Leer el archivo index.html cada vez que invoquen a / y devolver el contenido del archivo index.html
+El archivo index.html deberá tener 5 tags correctamente estructurados:
+<html>
+<head>
+Dentro del tag <head> usar el tag <title>
+<body>
+Dentro del tag <body> usar el tag <h1> y el tag <p>
